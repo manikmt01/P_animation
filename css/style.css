@@ -1,0 +1,161 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+section {
+    background: #eee;
+    padding: 10px;
+}
+.wrapper{
+    width: 61%;
+    margin: 0 auto;
+    min-height: 750px;
+    background: #fff;
+    
+}
+
+
+.box {
+    background: green;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+    animation-name: test;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.box p{
+    padding: 60px 10px;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+@keyframes test {
+    0% {
+        background-color: black;
+        left: 0px;
+        top: 0px;
+        color: red;
+        
+
+    }
+
+    5% {
+        background-color: black;
+        left: 300px;
+        top: 300px;
+        color: red;
+    }
+
+    10% {
+        background-color: darkgray;
+        left: 300px;
+        top: 0px;
+        color: darkkhaki;
+    
+    }
+
+    15% {
+        background-color: black;
+        left: 300px;
+        top: 300px;
+        color: red;
+    }
+
+    20% {
+        background-color: darkgray;
+        top: 0px;
+        left: 700px;
+        color: darkgreen;
+    }
+   
+     25% {
+    background-color: black;
+        left: 300px;
+        top: 300px;
+        color: red;
+
+    }
+     
+
+    30% {
+        background-color: darkgray;
+        top: 300px;
+        left: 700px;
+        color: darkgreen;
+    }
+   
+
+    35% {
+    background-color: black;
+        left: 300px;
+        top: 300px;
+        color: red;
+    }
+
+    40% {
+        background-color: darkgray;
+        top: 400px;
+        left: 700px;
+        color: darkgreen;
+    }
+ 
+    45% {
+        background-color: black;
+        left: 300px;
+        top: 300px;
+        color: red;
+    }
+    
+    50% {
+        background-color: darkgray;
+        left: 300px;
+        top: 600px;
+        color: darkkhaki;
+        
+    }
+   
+    55% {
+        background-color: black;
+        left: 300px;
+        top: 300px;
+        color: red;
+    }
+   
+    60% {
+        background-color: darkgray;
+        left:0px;
+        top: 600px;
+        color: darkkhaki;
+    }
+      
+    65% {
+        background-color: black;
+        left: 300px;
+        top: 300px;
+        color: red;
+    }
+    
+    70% {
+        background-color: darkgray;
+        left: 0px;
+        top: 300px;
+        color: darkkhaki;
+    }
+    
+    75% {
+        background-color: black;
+        left: 300px;
+        top: 300px;
+        color: red;
+    }
+    
+    80% {
+        background-color: darkgray;
+        left: 0px;
+        top: 0px;
+        color: darkkhaki;
+    }
